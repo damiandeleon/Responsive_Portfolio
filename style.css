@@ -1,0 +1,26 @@
+body {
+    background-image: url("./Assets/Images/wp3589868.jpg");
+    background-repeat:repeat-y;
+    background-size: 100%; 
+    font-size: 14px;
+}
+.card img {
+    float: left;
+}
+
+.card-header {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold!important ;
+    color: lightseagreen !important;
+    background-color: #FFFFFF;
+}
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold!important ;
+    background-color: lightseagreen;
+    color: #FFFFFF !important;
+}
+.btn {
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+}
