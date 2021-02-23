@@ -5,22 +5,30 @@ body {
     font-size: 14px;
 }
 .card img {
-    float: left;
+    display: flex;
+    width: 300px;
 }
 
 .card-header {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold!important ;
-    color: lightseagreen !important;
+    color: rgb(100, 117, 139) !important;
     background-color: #FFFFFF;
 }
 .navbar-brand {
+    width: 200px;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold!important ;
-    background-color: lightseagreen;
+    background-color: rgb(100, 117, 139);
     color: #FFFFFF !important;
 }
 .btn {
-    background-color: lightseagreen;
-    border-color: lightseagreen;
+    background-color: rgb(100, 117, 139);
+    border-color: black;
 }
+.contactBox {
+    margin-left: 4%;
+}
+
+p {color: rgb(100, 117, 139);}
