@@ -10,15 +10,15 @@ body {
 }
 
 .card-header {
-    font-family:cursive;
-    font-weight: bold!important ;
+    font-family: 'Monoton';
+    /* font-weight: bold!important ; */
     color: rgb(100, 117, 139) !important;
     background-color: #FFFFFF;
 }
 .navbar-brand {
     width: 200px;
     text-align: center;
-    font-family: 'Monoton', cursive;
+    font-family: 'Monoton';
     /* font-weight: bold!important ; */
     /* background-color: rgb(100, 117, 139); */
     color: rgb(100, 117, 139) !important;
