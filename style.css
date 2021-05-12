@@ -1,8 +1,8 @@
 body {
-    background-image: url("./Assets/Images/wp3589868.jpg");
+    background-image: url("./Assets/Images/cool-background.png");
     background-repeat:repeat-y;
     background-size: 100%; 
-    font-size: 14px;
+    font-size: 16px;
 }
 .card img {
     display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 .card-header {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:cursive;
     font-weight: bold!important ;
     color: rgb(100, 117, 139) !important;
     background-color: #FFFFFF;
@@ -18,19 +18,32 @@ body {
 .navbar-brand {
     width: 200px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold!important ;
-    background-color: rgb(100, 117, 139);
-    color: #FFFFFF !important;
+    font-family: 'Monoton', cursive;
+    /* font-weight: bold!important ; */
+    /* background-color: rgb(100, 117, 139); */
+    color: rgb(100, 117, 139) !important;
+    font-size: xx-large;
+}
+.navbar {
+    background-color: lavender;
 }
 .btn {
     background-color: rgb(100, 117, 139);
     border-color: black;
 }
 .contactBox {
-    margin-left: 4%;
+    margin-left: 7%;
+    width: 50%;
 }
 
 p {color: rgb(100, 117, 139);}
 
 a {align-self: center;}
+
+.container{
+    background-color: transparent
+}
+
+.contactCard, .CardPad {
+    padding-bottom: 15px;
+}
